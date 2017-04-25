@@ -1,0 +1,21 @@
+<h1> Просто хорошие советы
+$if null advices
+    <p> Пусто пока...
+$else
+  <ul>
+    $forall Entity akey aval <- advices
+      <li>
+        <a href=@{SimpleAdviceR akey}>#{simpleAdviceContent aval}
+        <br>
+<hr>
+<div .row-md-12>
+  <div .col-md-6>
+    <form method=post enctype=#{enctype} .full>
+      ^{adviceWidget}
+      <div>
+          <button .btn type=submit>Сохранить
+<hr>
+<div .row-md-12>
+  <div .col-md-12>
+    <a href=@{AdminR}>
+      Вернуться к списку

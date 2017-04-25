@@ -1,0 +1,102 @@
+<div #allrecords .t-records data-hook="blocks-collection-content-node" >
+    ^{header withMenu}
+         
+    <div .r data-record-type="43" #rec9313233 style="padding-top: 0px; padding-bottom: 0px; opacity: 1;">
+        $#  T030 
+        <div .t030>
+            <div .t-container .t-align_center>
+                <div .t-col .t-col_10 .t-prefix_1>
+                    <div .t030__title .t-title .t-title_xxs field="title">#{textAdviseName ta}
+
+  $if null images
+    <div .r data-record-type="341" #rec9313130 style="padding-top: 30px; padding-bottom: 30px; opacity: 1;">
+  $else
+    <div .r data-record-type="341" #rec9313130 style="padding-top: 30px; padding-bottom: 30px; opacity: 1;">
+      <div .t341>
+        <div style="width: 0; height: 0; overflow: hidden;">
+          <div .t-carousel__height .t-width .t-width_10 data-auto-correct-mobile-width="false" style="height:560px;">
+        <div .t-carousel .carousel .slide data-interval="false" data-ride="carousel" #t-carousel9313130>
+          <div .t-carousel__slides>
+            <div .t-carousel__inner .carousel_inner .t-width_10 .t-carousel__checksize style="height:560px;">
+              $forall img <- images
+                $if isEqualToZero $ snd img
+                  <div .t-carousel__item .item .active .t-carousel__checksize style="height:560px;">
+                    <div .t-carousel__item__img style="background-image: url(#{repairStatic $ imageUrl $ fst img});">	
+                $else
+                  <div .t-carousel__item .item .t-carousel__checksize style="height:560px;">
+                    <div .t-carousel__item__img style="background-image: url(#{repairStatic $ imageUrl $ fst img});">
+            <div .t-carousel__arrows__container .t-carousel__arrows__container_outside .t-carousel__arrow_outsidemiddle style="max-width: 1088px;">
+              <a .left .t-carousel__control data-slide="prev" href="#t-carousel9313130">
+                <div .t-carousel__arrow__wrapper .t-carousel__arrow__wrapper_left>
+                  <div .t-carousel__arrow_light .t-carousel__arrow .t-carousel__arrow_left style="border-color:#000000;">
+              <a .right .t-carousel__control data-slide="next" href="#t-carousel9313130">
+                <div .t-carousel__arrow__wrapper .t-carousel__arrow__wrapper_right>
+                  <div .t-carousel__arrow_light .t-carousel__arrow .t-carousel__arrow_right style="border-color:#000000;">
+          <ol .t-carousel__indicators .carousel-indicators>
+            $forall ix <- indeces
+              $if isEqualToZero ix
+                <li .t-carousel__indicator .active data-slide-to=#{show ix} data-target="#t-carousel9313130" style="background-color:#000000;">
+              $else
+                <li .t-carousel__indicator data-slide-to=#{show ix} data-target="#t-carousel9313130" style="background-color:#000000;">
+          <div .t-container>
+            <div .t-carousel__caption__container>
+              
+  <div .r data-record-type="280" #rec9313609 style=" ">
+    <div .t260 data-block-init="yes">
+      <div .t-container>
+        <div .t-col .t-col_8 .t-prefix_2>
+          <div .t260__accordion style="border-bottom: 1px solid #d9d9d9;">
+            <div .t260__wrapper>
+              <div .t260__header style="border-top: 1px solid #d9d9d9;">
+                <div .t260__title .t-name .t-name_xl field="title">Что брать? Удачные версии: 
+                <div .t260__icon>
+                  <div .t260__lines>
+                    <div .t260__iconline .t260__iconline_left style="background: #000000">
+                    <div .t260__iconline .t260__iconline_right style="background: #000000">
+                  <div .t260__circle style="background: #dedede">
+              <div .t260__content>
+                <div .t260__textwrapper>
+                  <div .t260__text .t-descr .t-descr_xs field="descr">#{textAdviseHappyText ta}
+            
+  <div .r data-record-type="280" #rec9313616 style="opacity: 0;">
+    $#  T260
+    <div .t260 data-block-init="yes">
+      <div .t-container>
+        <div .t-col .t-col_8 .t-prefix_2>
+          <div .t260__accordion style="border-bottom: 1px solid #d9d9d9;">
+            <div .t260__wrapper>
+              <div .t260__header style="border-top: 1px solid #d9d9d9;">
+                <div .t260__title .t-name .t-name_xl field="title">Чего не брать? Неудачные версии:
+                <div .t260__icon>
+                  <div .t260__lines>
+                    <div .t260__iconline .t260__iconline_left style="background: #000000">
+                    <div .t260__iconline .t260__iconline_right style="background: #000000">
+                  <div .t260__circle style="background: #dedede">
+              <div .t260__content>
+               <div .t260__textwrapper>
+                <div .t260__text .t-descr .t-descr_xs field="descr">#{textAdviseUnhappyText ta}
+
+  <div .r data-record-type="280" #rec9313622 style="opacity: 0;">
+    <div .t260 data-block-init="yes">
+      <div .t-container>
+        <div .t-col .t-col_8 .t-prefix_2>
+          <div .t260__accordion style="border-bottom: 1px solid #d9d9d9;">
+            <div .t260__wrapper>
+              <div .t260__header style="border-top: 1px solid #d9d9d9;">
+                <div .t260__title .t-name .t-name_xl field="title">На что обратить внимание?
+                <div .t260__icon>
+                  <div .t260__lines>
+                    <div .t260__iconline .t260__iconline_left style="background: #000000">
+                    <div .t260__iconline .t260__iconline_right style="background: #000000">
+                  <div .t260__circle style="background: #dedede">
+              <div .t260__content>
+                <div .t260__textwrapper>
+                  <div .t260__text .t-descr .t-descr_xs field="descr">#{textAdviseLookupText ta}
+
+  ^{wantByCarSearchForm regions marks}            
+            
+  ^{retryWeakPlaces marks}            
+  ^{simpleAdvice sAdvice'}
+  ^{guideButton}
+  ^{needHelp}
+  ^{footer}

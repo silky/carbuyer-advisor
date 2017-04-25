@@ -1,0 +1,164 @@
+<div #allrecords data-hook="blocks-collection-content-node">
+  <div #rec2968016 .r style="padding-bottom:0px; " data-animationappear="off" data-record-type="18">
+    <div .cover #recorddiv2968016 bgimgfield="img" style="height:100vh; background-image:-webkit-linear-gradient(top, #ccc, #777); background-image:-moz-linear-gradient(top, #ccc, #777); background-image:-o-linear-gradient(top, #ccc, #777); background-image:-ms-linear-gradient(top, #ccc, #777); background-image:linear-gradient(top, #ccc, #777); ">
+      <div .cover_carrier #coverCarry2968016 data-content-cover-id="2968016" data-content-cover-bg=@{StaticR img_SpecialistsReleaseImage_jpg} data-content-cover-height="100vh" data-content-cover-parallax="fixed" style="background-image:url('@{StaticR img_SpecialistsReleaseImage_jpg}');height:100vh;">
+      
+        <div .filteropacity style="height:100vh;background-image: -moz-linear-gradient(top, rgba(0,0,0,0.20), rgba(0,0,0,0.80));background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.20), rgba(0,0,0,0.80));background-image: -o-linear-gradient(top, rgba(0,0,0,0.20), rgba(0,0,0,0.80));background-image: -ms-linear-gradient(top, rgba(0,0,0,0.20), rgba(0,0,0,0.80));background-image: linear-gradient(top, rgba(0,0,0,0.20), rgba(0,0,0,0.80));">
+          <div .container>
+            <div .lr_col_12>
+              <div .centeredVerticallyBlock style="height:100vh; vertical-align: bottom;">
+                <div .t001 style="text-align:center;">
+                  <div .wrapper data-hook-content="covercontent">
+                    <h1 .title-xl field="title">
+                      Мы изучили доски объявлений!
+                    <div .descr-lg .centerText .dcenter field="descr">
+                      <div style="font-size:34px;" data-customstyle="yes">
+                        <strong>
+                          <em>...и вот что получается:
+                    <span .space>
+
+  <div #rec2968094 .r style="padding-top: 60px; padding-bottom: 15px; opacity: 0;" data-record-type="248">
+    <div class="t220">
+      <div class="container ">
+        <div class="lr_col_8 prefix_2">
+          <div class="textwrapper" style="background-color:#dbf3ff;">
+            <div style="">            
+              <h2 field="title">
+                <div style="font-size:22px;" data-customstyle="yes">
+                  Вы ищете машину в регионе
+                <span style="text-decoration: underline;">#{regionName $ entityVal r}
+                <br>
+                Это -
+                <span style="text-decoration: underline;">
+                  #{adviceTitle $ entityVal adv}
+
+                <div field="text" class="text ">
+                  #{adviceContent $ entityVal adv}
+                <br>
+
+
+  <div #rec2968035 .r style="padding-top: 60px; padding-bottom: 60px; opacity: 1;" data-record-type="248">
+    <div .t220>
+      <div .container>
+        <div .lr_col_8 .prefix_2>
+          <div .textwrapper style="background-color:#ffebeb;">
+            <div>            
+              <h2 field="title">
+                <div style="font-size:22px;" data-customstyle="yes">
+                  Ваш выбор -
+                  <span style="text-decoration: underline;">
+                    #{showQueryGen ma mo g}
+                  <br>
+                  $forall Entity _ advC' <- advC
+                    Это -
+                    <span style="text-decoration: underline;">
+                      #{adviceTitle advC'}
+                    <br>
+                    Что это значит?
+                    <div field="text" class="text ">
+                      #{adviceContent advC'}
+                    <br>
+
+  <div #rec2968058 .r style="padding-top: 60px; padding-bottom: 15px; opacity: 0;" data-record-type="248">
+    <div .t220>
+      <div .container>
+        <div .lr_col_8 .prefix_2>
+          <div .textwrapper style="background-color:#e1fad5;">
+            <div>            
+              <h2 field="title">
+                <div style="font-size:22px;" data-customstyle="yes">Вы хотите купить машину #{T.pack $ show $ ageAge $ entityVal a} года
+              <h2 field="title">
+                $forall Entity _ advA' <- advA
+                  <div style="font-size:22px;" data-customstyle="yes">
+                    #{adviceTitle advA'}
+                  <div field=text .text>
+                    #{adviceContent advA'}
+
+  <div #rec2968086 .r style="padding-top: 30px; padding-bottom: 60px; opacity: 0;" data-record-type="248">
+    <div .t220>
+      <div class="container ">
+        <div class="lr_col_8 prefix_2">
+          <div class="textwrapper" style="background-color:#f6ffd1;">
+            <div style="">            
+              <h2 field="title" style="font-size:22px;">
+                $if mres == True
+                  <div style="font-size:22px;" data-customstyle="yes">Упс, мы не можем дать вам рекомендацию по тому, насколько выбранная модель соответствует вашему бюджету. Почему?
+                  <br>
+                  <div>Средняя цена на #{showQueryAge ma mo a} неизвестна, так как в данный момент в указанном городе этой модели этого года в продаже НЕТ.
+                  <br> 
+                  <div>Попробуйте выбрать:
+                  
+                    <ul>
+                      <li>
+                        <a href="#get-advice">другой город
+                      <li>
+                        <a href="#get-advice">другую модель
+                      <li>
+                        <a href="#get-advice">другой год
+                  <br>
+                  <div style="font-size:22px;"> Удачи! 
+                $else
+                  <div style="font-size:22px;" data-customstyle="yes">
+                    Средняя цена на
+                    <span style="text-decoration: underline;">#{showQueryAge ma mo a}
+                    \ - #{T.pack $ show amprice} рублей.
+                  <br>
+                  <div>Вы хотите купить машину за #{show $ arBudget autoRequest} рублей. И это:
+                  $forall Entity _ advP' <- advP
+                    <h2 field="title">
+                      <div style="font-size:22px;">
+                        #{adviceTitle advP'}
+                      <div field=text .text>
+                        #{adviceContent advP'}
+ 
+  <div .hide id="rec2968120" class="r" style="padding-top: 30px; padding-bottom: 0px; opacity: 0;" data-record-type="106">
+    <div class="t004">
+      <div class="container ">
+        <div class="lr_col_8 prefix_2">
+          <div field="text" class="text  ">
+            <div style="font-size:30px;text-align:center;" data-customstyle="yes">
+              Ваш риск купить авто в плохом состоянии -
+            <strong>
+              подсчёт риска
+            <br>
+            У нас есть бесплатная инструкция
+            <br>
+            по выбору машины для вас!
+ 
+ 
+  <div id="rec2968184" class="r" style="padding-top: 30px; padding-bottom: 30px; background-color: rgb(255, 233, 173); opacity: 0;" data-record-type="56">
+    <div class="t046" #get-advice>
+      <div class="container">
+        <div class="lr_col_6 prefix_3">
+          <div class="text-xs" field="text">
+            <div style="font-size:24px;" data-customstyle="yes">А еще можно проверить другие машины:
+
+  ^{carSearchForm regions marks}
+  
+  <style>
+    \ #rec2968148 input::-webkit-input-placeholder {color:#000000; opacity: 0.5;}
+    \ #rec2968148 input::-moz-placeholder          {color:#000000; opacity: 0.5;}
+    \ #rec2968148 input:-moz-placeholder           {color:#000000; opacity: 0.5;}
+    \ #rec2968148 input:-ms-input-placeholder      {color:#000000; opacity: 0.5;}
+ 
+  <div id="rec2968246" class="r" style="padding-top: 56px; padding-bottom: 56px; opacity: 0;" data-record-type="106">
+    <div class="t004">
+      <div class="container ">
+        <div class="lr_col_8 prefix_2">
+          <div field="text" class="text  ">
+            <span style="font-size: 26px;">
+              <strong>
+                Мало информации?
+              <br>
+              <br>
+              Мы уже работаем над второй версией CarsBuddy! Чего там только не будет...
+              <br>
+              - Слабые места конкретных моделей
+              <br>
+              - Позиции их в ведущих международных рейтингах надежности
+              <br>
+              - Поиск лучших вариантов под ваш бюджет
+              <br>
+              <br>
+              <strong>
+                Уже скоро! Оставайтесь на связи!

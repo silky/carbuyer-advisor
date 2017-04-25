@@ -1,0 +1,31 @@
+<h2>Гипотезы
+<div .row-md-12>
+  <div .col-md-12>
+    <table #ps>
+      <tbody>
+        <tr>
+          <th>
+          $forall Entity _ hyp <- hyps
+            <th>#{asObjectN hyp}
+        $forall priceRow <- prices
+          $if null priceRow
+            <tr>
+          $else
+            <tr>
+              <td>#{snd priceRow}
+              $forall priceCol <- fst priceRow
+                <td>
+                  <textarea hyp=#{fromSqlKey $ hyp' priceCol} serv=#{fromSqlKey $ serv' priceCol} .tdinp>#{show $ val' priceCol}
+
+<div .row-md-12>
+  <div .col-md-12>
+    <output #list>
+    <button .btn #sbmt>Обновить
+
+<br>
+<hr>
+<br>
+<div .row-md-12>
+  <div .col-md-12>
+    <output #list>
+    <a href=@{AdminR}>Назад

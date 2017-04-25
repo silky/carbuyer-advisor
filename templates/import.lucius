@@ -1,0 +1,15 @@
+td {
+  white-space: pre-line;
+  font-size: 14px;
+  padding: 15px;
+  border: 1px solid grey;
+}
+
+.inside-td {
+  height: 100px!important;
+  overflow-y: auto;
+}
+
+.filled {
+  background-color: #CCFFE5;
+}

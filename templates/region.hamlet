@@ -1,0 +1,34 @@
+<a class=hidden href=#top >
+  Топ
+
+<form id=regionF action=@{RegionR} method=post>
+  <input id=regionForm name="regionForm" type=hidden>
+  <input .hidden .button type=submit>
+
+<button .btn id="region-submit" value="Обновить">Обновить
+
+<table>
+  <tr .row-md-12>
+    <th .col-md-3>Наименование
+    <th .col-md-2>Номер
+    <th .col-md-2>ОКАТО
+    <th .col-md-2>ISO
+    <th .col-md-3>Популярность
+  $forall Entity rkey r <- regions
+    <tr .row-md-12>
+      <td .col-md-3 .border>#{regionName r}
+      <td .col-md-2 .border>#{regionNumber r}
+      <td .col-md-2 .border>#{regionOkato r}
+      <td .col-md-2 .border>#{regionIso r}
+      <td .col-md-3 .border>
+        $maybe r' <- regionPop r
+          <!-- <input name="region-input" id=#{fromSqlKey rkey} type=text value=#{r'} val=#{r'}> -->
+          <span>#{r'}
+        $nothing
+          <input name="region-input" id=#{fromSqlKey rkey} type=text value="" val="">
+   
+<div .row-md-12>
+  <div .col-md-6>
+    <a href="#region-submit">Наверх
+  <div .col-md-6>
+    <a href=@{AdminR}>Назад

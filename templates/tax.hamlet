@@ -1,0 +1,88 @@
+<div #allrecords .t-records data-hook="blocks-collection-content-node" >
+  ^{header withoutMenu}
+
+  <div .r style="padding-top:30px;padding-bottom:0;">
+    <div .t-container>
+      <div .t-col .t-col_8 .t-prefix_2 >
+        <div .t-title .title_xxl>
+          <div style="font-size: 52px; padding-left: 5%; padding-right: 5%;" >ТАРИФЫ АВТОСКЕПТИКА
+
+  <div .r style="padding-top:30px;padding-bottom:15px;">
+    <div .t-container>
+      <div .t-col .t-col_4 .bxs >
+        <div .t260__title .t-name .t-name_xl .tc>ОБЗОРЫ И РЕКОМЕНДАЦИИ
+        <br>
+        <div .t260__title .t-name .t-name_xl .tc>#{advices} рублей
+        <br>
+        <div .t260__text .t-descr .t-descr_xs >
+          <ul>
+            <li>Доступ к базе обзоров слабых мест более чем 300 машин
+            <li>Неограниченные рекомендации по возрасту, пробегу, региону покупки и ценам
+            <li>Если машина редкая и в нашей базе ее нет, подготовка подробной справки по ней за 24 часа бесплатно
+            <li>Оповещения на e-mail по готовности заказанных обзоров
+          <form method=POST action=@{TaxR}>
+            <input type=checkbox #c1 .t-ch>
+              <span style="margin-left: 5px; font-size: 12px">Прочитал и согласен с 
+                <a href=@{TermsR} target="_blank">правилами Автоскептика
+              <br>
+              <br>
+            <button #form3-submit type="submit" .t186C__submit .t-submit style="width:100%; color:#000000; background-color:#b3ff80; ">КУПИТЬ
+
+      <div .t-col .t-col_4 .bxs >
+        <div .t260__title .t-name .t-name_xl .tc>ГИД АВТОСКЕПТИКА
+        <br>
+        <div .t260__title .t-name .t-name_xl .tc>#{guideOnly} рублей
+        <br>
+        <div .t260__text .t-descr .t-descr_xs >
+          <ul>
+            <li>99 советов по выбору подержанных машин
+            <li>150 страниц текста и иллюстраций
+            <li>Пошаговая инструкция, понятная даже новичкам
+            <li>Информация, полезная даже опытным
+            <li>Как отобрать объявления, как общаться с продавцом, на что обратить внимание при осмотре машины, как оформить документы - выбор автомобиля от начала до конца
+            <li>Индивидуальные ответы на вопросы по гиду - бесплатно
+          <form method=POST action=@{TaxR}>
+            <input type=checkbox #c2 .t-ch>
+              <span style="margin-left: 5px; font-size: 12px">Прочитал и согласен с 
+                <a href=@{TermsR} target="_blank">правилами Автоскептика
+              <br>
+              <br>
+            <button #form3-submit type="submit" .t186C__submit .t-submit style="width:100%; color:#000000; background-color:#b3ff80; ">КУПИТЬ
+
+      <div .t-col .t-col_4 .bxs >
+        <div .t260__title .t-name .t-name_xl .tc>ОБЗОРЫ И РЕКОМЕНДАЦИИ + ГИД
+        <br>
+        <div .t260__title .t-name .t-name_xl .tc>#{combo} рублей
+        <br>
+        <div .t260__text .t-descr .t-descr_xs >
+          <ul>
+            <li>Доступ к базе обзоров слабых мест более чем 300 машин
+            <li>
+              <u>
+                <a href=@{GuideR}>150-страничный иллюстрированный гид
+              \ по покупке б/у авто от Автоскептика
+            <li>Неограниченные рекомендации по возрасту, пробегу, региону покупки и ценам
+            <li>Если машина редкая и в нашей базе ее нет, подготовка подробной справки по ней за 24 часа бесплатно
+            <li>Оповещения на e-mail по готовности заказанных обзоров
+          <form method=POST action=@{TaxR}>
+            <input type=checkbox #c3 .t-ch>
+              <span style="margin-left: 5px; font-size: 12px">Прочитал и согласен с 
+                <a href=@{TermsR}>правилами Автоскептика
+              <br>
+              <br>
+            <button #form3-submit type="submit" .t186C__submit .t-submit style="width:100%; color:#000000; background-color:#b3ff80; ">КУПИТЬ
+
+  <div .r data-record-type="280" style=" ">
+    <div .t260 data-block-init="yes">
+      <div .t-container>
+        <div .t-col .t-col_123>
+          <div style="padding-left: 30%; padding-right: 30%; width: 40%; padding-bottom: 30px;">
+            <a href=@{AboutR} target="_blank">
+              <div .t260__title .t-title >ВАШИ ВОПРОСЫ:
+                <ol>
+                  <li>Что такое обзоры б/у машин? Откуда они берутся?
+                  <li>Что такое рекомендации и чем они полезны?  
+                  <li>Какой толк от Гида Автоскептика?
+                  <li>Зачем вообще платить Автоскептику?
+
+  ^{footer}

@@ -1,0 +1,10 @@
+<h1>Мониторинг приложения
+
+<h2>HDD:
+
+<pre>#{pack hdd}
+
+<h2>RAM:
+
+<pre>#{pack ram}
+<a href=@{AdminR}>Назад

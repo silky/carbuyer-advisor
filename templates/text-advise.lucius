@@ -1,0 +1,15 @@
+textarea {
+  height: 250px!important;
+  width: 70%!important;
+}
+
+input {
+  width: 70%!important;
+}
+
+.thumb {
+  height: 75px!important;
+  border: 1px solid #000!important;
+  margin: 10px 5px 0 0!important;
+}
+

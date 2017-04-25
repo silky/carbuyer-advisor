@@ -1,0 +1,12 @@
+.full {
+  width: 400px!important;
+}
+
+.list {
+  max-height: 250px;
+  overflow-y: auto;
+}
+
+textarea {
+  width:400px;
+}

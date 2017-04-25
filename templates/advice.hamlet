@@ -1,0 +1,29 @@
+<h1> Просмотр
+<h2>#{adviceTitle advice}
+
+<article> 
+  #{adviceContent advice}
+$maybe t <- typ
+  <h3>#{fst t}
+$nothing
+  <span>
+
+<hr>
+<h1> Редактирование
+<div .hide #advice value=#{fromSqlKey adviceId}>
+  #{fromSqlKey adviceId}
+
+<div .row-md-6>
+  <form method=post enctype=#{enctype}>
+    ^{adviceWidget}
+    <div .col-md-3>
+      <button .btn type=submit>
+        Обновить
+
+  <div .col-md-3>
+    <button #del .btn>
+      Удалить
+
+<hr>
+<a href=@{AdminR}>
+    Вернуться к списку

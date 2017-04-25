@@ -1,0 +1,31 @@
+<h1>Редактор атрибутов
+
+<div>
+  <div .row-md-12>
+    $if null ps
+      <table #ptable>
+    $else
+      <table #ptable>
+        <tr .row-md-12>
+          <th .col-md-6>Свойство
+          <th .col-md-6>Значение
+        $forall Entity pkey p <- ps
+          <tr>
+            <td .col-md-6>
+              <div .inside-td>
+                <a .tt2 href="">#{asPropertyK p}
+                  <span .tooltiptext>#{asPropertyD p}
+            <td .col-md-6>
+              <div .inside-td>#{asPropertyV p}
+
+  <div .row>
+    <div .col-md-12>
+      <input #pk placeholder=key>
+      <input #pv placeholder=value>
+      <input #pd placeholder=description>
+
+      <input #pupd type=hidden q="">
+  <div .row>
+    <div .col-md-12>
+      <button .btn #padd>Добавить
+

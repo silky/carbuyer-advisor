@@ -1,0 +1,76 @@
+<div #allrecords .t-records data-hook="blocks-collection-content-node" >
+  ^{header withoutMenu}
+
+  <div .r data-record-type="280" #rec9313609 style=" ">
+    <div .t260 data-block-init="yes">
+      <div .t-container>
+        <div .t-col .t-col_8 .t-prefix_2>
+          <div .t260__accordion style="border-bottom: 1px solid #d9d9d9;">
+            <div .t260__wrapper>
+              <div .t260__header style="border-top: 1px solid #d9d9d9;">
+                <div .t260__title .t-name .t-name_xl field="title">Что такое обзоры б/у машин? Откуда они берутся?
+                <div .t260__icon>
+                  <div .t260__lines>
+                    <div .t260__iconline .t260__iconline_left style="background: #000000">
+                    <div .t260__iconline .t260__iconline_right style="background: #000000">
+                  <div .t260__circle style="background: #dedede">
+              <div .t260__content>
+                <div .t260__textwrapper>
+                  <div .t260__text .t-descr .t-descr_xs field="descr">Автоскептик разработал максимально краткий и полезный формат технической справки по машинам. Никакой воды, никакой "истории моделй", которую можно прочитать в Википедии, все строго по делу. Обзоры разделены на три части. Первая - "Что брать?", где перечислены удачные версии машины. Моторы, коробки, комплектации, которые стоит покупать в первую очередь. Вторая - "Чего не брать?" - про неудачные версии модели. Практически у каждой есть неудачный мотор, неудачная коробка или год выпуска. "На что обратить внимание?" - здесь перечислены типичные слабые места и вещи, которые непременно стоит изучить при осмотре авто. Обзоры составляются из опыта владельцев и мастеров профильных автосервисов. Аналогов обзорам Автоскептика в Интернете нет.
+
+  <div .r data-record-type="280" style=" ">
+    <div .t260 data-block-init="yes">
+      <div .t-container>
+        <div .t-col .t-col_8 .t-prefix_2>
+          <div .t260__accordion style="border-bottom: 1px solid #d9d9d9;">
+            <div .t260__wrapper>
+              <div .t260__header style="border-top: 1px solid #d9d9d9;">
+                <div .t260__title .t-name .t-name_xl field="title">Что такое рекомендации и чем они полезны?
+                <div .t260__icon>
+                  <div .t260__lines>
+                    <div .t260__iconline .t260__iconline_left style="background: #000000">
+                    <div .t260__iconline .t260__iconline_right style="background: #000000">
+                  <div .t260__circle style="background: #dedede">
+              <div .t260__content>
+                <div .t260__textwrapper>
+                  <div .t260__text .t-descr .t-descr_xs field="descr">Помимо типично слабых мест конкретных моделей есть общие проблемы, с которыми сталкиваешься при выборе машины. Можно ли брать 10-летнюю машину или не стоит? Имеет ли смысл брать авто в родном маленьком городе или ехать в Москву? Достаточно ли 300 000 рублей для приобретения машины, которая мне понравилась? Вы вводите марку, модель, год выпуска, имеющуюся у вас сумму и регион, где собираетесь покупать авто. Мы анализируем средние цены по рынку прямо сейчас (считаем по открытым данным Auto.ru и Avito.ru) и даем внятную рекомендацию, правильно ли вы выбрали машину или нет.
+
+  <div .r data-record-type="280" style=" ">
+    <div .t260 data-block-init="yes">
+      <div .t-container>
+        <div .t-col .t-col_8 .t-prefix_2>
+          <div .t260__accordion style="border-bottom: 1px solid #d9d9d9;">
+            <div .t260__wrapper>
+              <div .t260__header style="border-top: 1px solid #d9d9d9;">
+                <div .t260__title .t-name .t-name_xl field="title">Какой толк от Гида Автоскептика?
+                <div .t260__icon>
+                  <div .t260__lines>
+                    <div .t260__iconline .t260__iconline_left style="background: #000000">
+                    <div .t260__iconline .t260__iconline_right style="background: #000000">
+                  <div .t260__circle style="background: #dedede">
+              <div .t260__content>
+                <div .t260__textwrapper>
+                  <div .t260__text .t-descr .t-descr_xs field="descr">Гид Автоскептика - 150 страниц пошаговых инструкций по выбору и покупке бэушной машины в формате 99 советов. Информация подана максимально доходчиво - так, чтобы понял даже человек, который получил права вчера. С другой стороны, полезной информации столько, что она пригодится даже опытному автомобилисту. Пример, как выглядят страницы Гида, вы можете увидеть 
+                    <a href=@{GuideR}>здесь
+                    .
+
+  <div .r data-record-type="280" style=" ">
+    <div .t260 data-block-init="yes">
+      <div .t-container>
+        <div .t-col .t-col_8 .t-prefix_2>
+          <div .t260__accordion style="border-bottom: 1px solid #d9d9d9;">
+            <div .t260__wrapper>
+              <div .t260__header style="border-top: 1px solid #d9d9d9;">
+                <div .t260__title .t-name .t-name_xl field="title">Зачем вообще платить Автоскептику?
+                <div .t260__icon>
+                  <div .t260__lines>
+                    <div .t260__iconline .t260__iconline_left style="background: #000000">
+                    <div .t260__iconline .t260__iconline_right style="background: #000000">
+                  <div .t260__circle style="background: #dedede">
+              <div .t260__content>
+                <div .t260__textwrapper>
+                  <div .t260__text .t-descr .t-descr_xs field="descr">Затем, что здесь вся информация уникальна, она собрана и систематизирована вручную для вашего удобства. Работа над контентом сайта заняла более года до запуска и продолжается каждый день, делая выбор машины для непосвященных все проще и прозрачнее. 99 или 199 рублей - это в разы меньше, чем стоит запись в коммерческое МРЭО или услуга оформления договора купли-продажи. Автоскептик научит вас делать это самостоятельно, не платя никому. Плюс десятки или даже сотни тысяч экономии на ремонте - ведь если вы знаете слабые места и типичные уловки продавцов, то вы никогда не купите ломучий хлам. А ведь примерно 60% продаваемых машин - именно хлам. Так стоит ли работа Автоскептика 99 или 199 рублей? Решать вам. 
+
+  ^{allClear}
+
+  ^{footer}

@@ -1,0 +1,48 @@
+<h1>Импорт
+<div>
+  <ul>
+    <li>Присоедини ZIP и отправь.
+    <li>ZIP должен содержать текстовые файлы TXT.
+    <li>Сервер сам распакует, распарсит и загрузит файлы массово.
+
+<div>
+  <div .row-md-3>
+    <form method=post enctype=#{enctype}>
+      <div .col-md-12>
+        ^{fileWidget}
+      <div .col-md-12>
+        <button .btn type=submit>Обновить
+
+  <div .row-md-9>
+    $if null tas
+      <div .col-md-12>Nothing to show
+    $else
+      <table>
+        <tr .row-md-12>
+          <th .col-md-1>Имя
+          <th .col-md-3>Что удачного
+          <th .col-md-4>Что неудачного
+          <th .col-md-4>На что посмотреть
+        $forall (Entity tkey ta, stat) <- tas
+          $if stat
+            <tr .filled>
+              <td .col-md-1>
+                <div .inside-td>
+                  <a href=@{TextAdviseR tkey}>#{textAdviseName ta}
+              <td .col-md-3>
+                <div .inside-td>#{textAdviseHappyText ta}
+              <td .col-md-4>
+                <div .inside-td>#{textAdviseUnhappyText ta}
+              <td .col-md-4>
+                <div .inside-td>#{textAdviseLookupText ta}
+          $else
+            <tr>
+              <td .col-md-1>
+                <div .inside-td>
+                  <a href=@{TextAdviseR tkey}>#{textAdviseName ta}
+              <td .col-md-3>
+                <div .inside-td>#{textAdviseHappyText ta}
+              <td .col-md-4>
+                <div .inside-td>#{textAdviseUnhappyText ta}
+              <td .col-md-4>
+                <div .inside-td>#{textAdviseLookupText ta}

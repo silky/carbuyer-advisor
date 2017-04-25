@@ -1,0 +1,159 @@
+<div #allrecords .t-records data-hook="blocks-collection-content-node" >
+  ^{header withMenu}
+  <div #rec9387013 .r style="padding-top: 30px; padding-bottom: 30px; opacity: 1;" >
+  <!-- T050 -->
+    <div .t050 >
+      <div .t-container .t-align_center >
+        <div .t-col .t-col_10 .t-prefix_1 >
+          <div .t-title .t-title_xxl field="title" >
+            <div style="font-size:52px;" data-customstyle="yes" >Мы изучили доски объявлений
+          <div .t050__descr .t-descr .t-descr_xxl field="descr" >
+            ...и вот что имеем сказать:
+            <br>
+            <span style="font-size: 14px;" >(нажмите на + и вы все узнаете)
+
+  <div #rec9386790 .r style="padding-top: 60px; opacity: 1;" >
+    <!-- T260-->
+    <div .t260 data-block-init="yes" >
+      <div .t-container >
+        <div .t-col .t-col_8 .t-prefix_2 >
+          <div .t260__accordion style="border-bottom: 1px solid #d9d9d9;" >
+            <div .t260__wrapper >
+              <div .t260__header style="border-top: 1px solid #d9d9d9;" >
+                <div .t260__title .t-name .t-name_xl field="title" >Про регион
+                <div .t260__icon >
+                  <div .t260__lines >
+                    <div .t260__iconline .t260__iconline_left style="background: #000000" >
+                    <div .t260__iconline .t260__iconline_right style="background: #000000" >
+                  <div .t260__circle style="background: #dedede" >
+              <div .t260__content >
+                <div .t260__textwrapper >
+                  <div .t260__text .t-descr .t-descr_xs field="descr" >
+                    <strong>
+                      Вы ищете машину в регионе ...
+                      <br>
+                      <br>
+                    <div>Выберите одну из двух предложенных опций в попапе для продолжения.
+                    <br>
+
+  <div id="rec9386966" class="r" style=" " data-record-type="280" >
+    <!-- T260-->
+    <div class="t260" data-block-init="yes" >
+      <div class="t-container" >
+        <div class="t-col t-col_8 t-prefix_2" >
+          <div class="t260__accordion" style="border-bottom: 1px solid #d9d9d9;" >
+            <div class="t260__wrapper" >
+              <div class="t260__header" style="border-top: 1px solid #d9d9d9;" >
+                <div class="t260__title t-name t-name_xl" field="title" >Про популярность
+                <div class="t260__icon" >
+                  <div class="t260__lines" >
+                    <div class="t260__iconline t260__iconline_left" style="background: #000000" >
+                    <div class="t260__iconline t260__iconline_right" style="background: #000000" >
+                  <div class="t260__circle" style="background: #dedede" >
+              <div class="t260__content" >
+                <div class="t260__textwrapper" >
+                  <div class="t260__text t-descr t-descr_xs" field="descr" >
+                     <strong>
+                       Ваш выбор - ...
+                       <br>
+                     Выберите одну из двух опций в попапе для продолжения...
+                     <br>
+
+  <div id="rec9386967" class="r" style=" " data-record-type="280" >
+    <!-- T260-->
+    <div class="t260" data-block-init="yes" >
+      <div class="t-container" >
+        <div class="t-col t-col_8 t-prefix_2" >
+          <div class="t260__accordion" style="border-bottom: 1px solid #d9d9d9;" >
+            <div class="t260__wrapper" >
+              <div class="t260__header" style="border-top: 1px solid #d9d9d9;" >
+                <div class="t260__title t-name t-name_xl" field="title" >Про возраст
+                <div class="t260__icon" >
+                  <div class="t260__lines" >
+                    <div class="t260__iconline t260__iconline_left" style="background: #000000" >
+                    <div class="t260__iconline t260__iconline_right" style="background: #000000" >
+                  <div class="t260__circle" style="background: #dedede" >
+              <div class="t260__content" >
+                <div class="t260__textwrapper" >
+                  <div class="t260__text t-descr t-descr_xs" field="descr" >
+                    <strong>Вы хотите купить машину ...
+                    Для продолжения выберите одну из двух опций в попапе...
+                    <br>
+
+
+  <div id="rec9386969" class="r" style=" " data-record-type="280" >
+    <!-- T260-->
+    <div class="t260" data-block-init="yes" >
+      <div class="t-container" >
+        <div class="t-col t-col_8 t-prefix_2" >
+          <div class="t260__accordion" style="border-bottom: 1px solid #d9d9d9;" >
+            <div class="t260__wrapper" >
+              <div class="t260__header" style="border-top: 1px solid #d9d9d9;" >
+                <div class="t260__title t-name t-name_xl" field="title" >Про ваш бюджет на покупку
+                <div class="t260__icon" >
+                 <div class="t260__lines" >
+                  <div class="t260__iconline t260__iconline_left" style="background: #000000" >
+                  <div class="t260__iconline t260__iconline_right" style="background: #000000" >
+                 <div class="t260__circle" style="background: #dedede" >
+              <div class="t260__content" >
+                <div class="t260__textwrapper" >
+                  <div class="t260__text t-descr t-descr_xs" field="descr">
+                    <div>
+                        Средняя цена ...
+                    <br>
+                    <div>
+                        Выберите одну из двух опций в попапе для продолжения...
+                        <br>
+                        <br>
+
+  <div .r style="padding-top:15px;padding-bottom:0px;" >
+    <div .t-container>
+      <div .t-col .t-col_10 .t-prefix_1 >
+        <div .t050__descr .t-descr .t-descr_xxl>Ваш риск купить авто в плохом состоянии - 
+          <strong>42%
+          <span .tt2>Как мы это посчитали?
+            <span .tooltiptext style="font-size: 14px;padding: 15px;">
+              Выберите одну из двух опций в попапе для продолжения...
+              <br>
+              <br>
+          <br>
+          <br>
+          <strong>Что теперь делать? Спокойно! Вариантов много:
+          <br>
+          <br>
+          <ul>
+            <li>
+              Скачать 
+              <a href=@{GuideR}>
+                <u>150-страничный Гид Автоскептика
+              \ и узнать все секреты выбора бэушной машины.
+            <li>
+              <a href="#personal">
+                <u>Обратиться к Автоскептику
+              \ с просьбой о помощи!
+
+  <div #autocomplete .r style=" " data-record-type="280" .hide mark=0 model=0 generation=0 year=0 mark-id=0 model-id=0 year-id=0 generation-id=0>
+
+  <div .r .p100 >
+    <div .t-container .p100-content >
+      <div .t-col .t-col_8 .t-pefix_2 >
+        <div .t-descr .t-descr_xxl>Обзоры Автоскептика полезны, не так ли?
+      <div .t-col .t-col_8 .t-pefix_2 >
+        <br>
+        <p .t-descr .t-descr_xxl>Действительно, знание слабых мест автомобилей и понимание ваших рисков поможет сэкономить десятки тысяч. Получите доступ ко всех обзорам автомобилей и рекомендациям всего за 99 рублей!
+        <br>
+      <div .t-col .t-col_12 >
+        <form action=@{TaxR} method=GET style="display:inline-block;width:40%;padding-left:5%;">
+          <button type=submit .t186C__submit .t-submit style="color:#000000; border:0 px solid #ffffff; background-color:#b3ff80; border-radius: 0px; -moz-border-radius: 0px; -webkit-border-radius: 0px;">ИДЕТ! КАК МОЖНО ОПЛАТИТЬ?
+        <form action=@{HomeR} method=GET style="display:inline-block;width:40%;padding-right:5%;">
+          <button type=submit .t186C__submit .t-submit style="color:#000000; border:0 px solid #ffffff; background-color:#e51616; border-radius: 0px; -moz-border-radius: 0px; -webkit-border-radius: 0px;">БУДУ РИСКОВАТЬ, 99 РУБЛЕЙ ДОРОГОВАТО
+
+
+
+
+  ^{retryCarSearchForm regions marks}
+  ^{wantMoreWeakPlaces marks}
+  ^{simpleAdvice sAdvice'}
+  ^{guideButton}
+  ^{needHelp}
+  ^{footer}

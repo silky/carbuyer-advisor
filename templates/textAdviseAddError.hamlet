@@ -1,0 +1,4 @@
+<form method=post enctype=#{enctype}>
+    ^{textAdviseWidget}
+    <div>
+        <input type=submit value="Post New Text Advice">

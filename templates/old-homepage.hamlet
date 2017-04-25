@@ -1,0 +1,106 @@
+<div id="allrecords" data-hook="blocks-collection-content-node">
+  <div id="rec2967376" class="r" style="padding-top: 0px; padding-bottom: 0px; opacity: 1;" data-record-type="3">
+    <!-- T107 -->
+    <div .t107>
+      <div .centeredContainer>
+        <img .widthauto imgfield="img" src=@{StaticR img_mbsk124_jpg}>
+
+  <div id="rec2967577" class="r" style="padding-top: 60px; padding-bottom: 60px; background-color: rgb(255, 255, 255); opacity: 1;" data-record-type="36">
+    <!-- T021 -->
+    <div class="t021">
+      <div .container>
+        <div .row>
+          <div .lr_col_2 .prefix_5>
+            <div .line>
+        <div .row>
+          <div .lr_col_10 .prefix_1>
+            <div class="text-impact" field="text">
+              Спокойно,
+              <strong>
+                CarsBuddy
+              поможет разобраться!
+        <div .row>
+          <div .lr_col_2 .prefix_5>
+            <div .line>
+
+  <div id="rec2967584" class="r" style="padding-top: 60px; padding-bottom: 30px; background-color: rgb(255, 233, 173); opacity: 1;" data-record-type="61">
+    <div .t051 #get-advice>
+      <div .container>
+        <div .row>
+          <div .lr_col_12>
+            <div class="text" field="text">
+              <div style="font-size:24px;" data-customstyle="yes">
+                <strong>Просто расскажите, какую машину вы хотите купить, и за сколько:
+                <br>
+
+  ^{oldCarSearchForm regions marks}
+
+  <div id="rec2967593" class="r" style="padding-top: 30px; padding-bottom: 45px; background-color: rgb(190, 245, 186); opacity: 1;" data-record-type="139">
+    <div .t013>
+      <div .container>
+        <div .lr_col_8 .prefix_2>
+          <div class="text" field="text">
+            <strong>КАК ЭТО РАБОТАЕТ?
+            <br>
+            <br>
+            1. Мы анализируем доски объявлений по продаже автомобилей
+            <br>
+            2. Выясняем, насколько ваша задумка выполнима
+            <br>
+            3. Даём вам рекомендацию, что покупать и почему
+
+  <div id="rec2967751" class="r" style="padding-top: 30px; padding-bottom: 0px; opacity: 1;" data-record-type="37">
+    <div .t022>
+      <div .container>
+        <div .row>
+          <div .lr_col_6 .prefix_3>
+            <div .text-sm field="text">
+              <strong>
+                <span style="font-size:24px;">
+                <span style="font-size:28px;">
+                У них уже получилось:
+              <br>
+
+  <div id="rec2967599" class="r" style="padding-top: 45px; padding-bottom: 0px; opacity: 1;" data-record-type="154">
+    <div .t143>
+      <div .container>
+        <div .lr_col_6>
+          <div .text-sm field="text">
+            <img src=@{StaticR img_1526389_1030055470355395_4452670540765250633_n_jpg}>
+            <div .textwrapper>
+              <div field="descr" .text>
+                Когда выбираешь машину, друзья - не помощники. Один фанат BMW, другой фанат Honda. В других марках вообще не разбираются, и объективного совета никто не дает. Спасибо
+                <strong>CarsBuddy
+                , помогли разложить все по полочкам!
+               <h6>Сергей, Екатеринбург
+        <div .lr_col_6>
+          <div .text-sm field="text">
+            <img src=@{StaticR img_12006337_1895231700701226_7150617004762808665_n_jpg}>
+            <div .textwrapper>
+              <div field="descr2" .text>
+                Я была уверена, что девушке самой выбрать машину нереально вообще! Но благодаря 
+                <strong>CarsBuddy
+                \ я смогла быстро разобраться, что к чему на рынке, и быстро купила себе машину.
+               <h6>Светлана, Москва
+
+  <div id="rec2967754" class="r" style="padding-top: 60px; padding-bottom: 42px; opacity: 1;" data-record-type="191">
+    <div .t142>
+      <div .container_100>
+        <div style="position:relative;right:50%;float:right;">
+          <div style="position:relative;right:-50%;z-index:1;">
+            <div .text field="text">
+              <a href="#get-advice">
+                <input .submit value="Я тоже так хочу!" style="color:#000000; border:3px solid #000000;" type=button>
+
+  <div id="rec2967756" class="r" style="padding-top: 60px; padding-bottom: 60px; background-color: rgb(255, 233, 173); opacity: 1;" data-record-type="106">
+    <div .t004>
+      <div .container>
+        <div .lr_col_8 .prefix_1>
+          <div field="text" class="text  ">
+            <div style="font-size:14px;" data-customstyle="yes">
+              Copyright 2015, CarsBuddy LLC
+              <br>
+              Условия использования
+              <br>
+              Политика конфиденциальности
+

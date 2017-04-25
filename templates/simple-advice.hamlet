@@ -1,0 +1,18 @@
+<h1> Редактирование
+<div .hide #advice value=#{fromSqlKey simpleAdviceId}>
+  #{fromSqlKey simpleAdviceId}
+
+<div .row-md-6>
+  <form method=post enctype=#{enctype}>
+    ^{adviceWidget}
+    <div .col-md-3>
+      <button .btn type=submit>
+        Обновить
+
+  <div .col-md-3>
+    <button #del .btn>
+      Удалить
+
+<hr>
+<a href=@{SimpleAdvicesR}>
+    Вернуться к списку

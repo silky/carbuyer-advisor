@@ -1,0 +1,194 @@
+<div #allrecords .t-records data-hook="blocks-collection-content-node" >
+  ^{header withMenu}
+  <div #rec9387013 .r style="padding-top: 30px; padding-bottom: 30px; opacity: 1;" >
+  <!-- T050 -->
+    <div .t050 >
+      <div .t-container .t-align_center >
+        <div .t-col .t-col_10 .t-prefix_1 >
+          <div .t-title .t-title_xxl field="title" >
+            <div style="font-size:52px;" data-customstyle="yes" >Мы изучили доски объявлений
+          <div .t050__descr .t-descr .t-descr_xxl field="descr" >
+            ...и вот что имеем сказать:
+            <br>
+            <span style="font-size: 14px;" >(нажмите на + и вы все узнаете)
+
+  <div #rec9386790 .r style="padding-top: 60px; opacity: 1;" >
+    <!-- T260-->
+    <div .t260 data-block-init="yes" >
+      <div .t-container >
+        <div .t-col .t-col_8 .t-prefix_2 >
+          <div .t260__accordion style="border-bottom: 1px solid #d9d9d9;" >
+            <div .t260__wrapper >
+              <div .t260__header style="border-top: 1px solid #d9d9d9;" >
+                <div .t260__title .t-name .t-name_xl field="title" >Про #{regionName $ entityVal r}
+                <div .t260__icon >
+                  <div .t260__lines >
+                    <div .t260__iconline .t260__iconline_left style="background: #000000" >
+                    <div .t260__iconline .t260__iconline_right style="background: #000000" >
+                  <div .t260__circle style="background: #dedede" >
+              <div .t260__content >
+                <div .t260__textwrapper >
+                  <div .t260__text .t-descr .t-descr_xs field="descr" >
+                    <strong>
+                      Вы ищете машину в регионе #{regionName $ entityVal r}.
+                      <br>
+                      Это #{adviceTitle $ entityVal adv}
+                      <br>
+                      <br>
+                    <div>#{adviceContent $ entityVal adv}
+                    $if isEastRegion r
+                      <br>
+                      PS: Данные Автоскептика по популярности моделей на Дальнем Востоке и в Сибири могут оказаться не вполне релевантными, так как пока сервис "заточен" под европейскую часть. Мы работаем над новым функционалом и скоро сможем предоставлять данные и по восточным регионам тоже. ВАЖНО! Рекомендации по возрасту и ценам актуальны для любых регионов, проблема касается только распространенности.
+                    $else
+                      <br>
+
+  <div id="rec9386966" class="r" style=" " data-record-type="280" >
+    <!-- T260-->
+    <div class="t260" data-block-init="yes" >
+      <div class="t-container" >
+        <div class="t-col t-col_8 t-prefix_2" >
+          <div class="t260__accordion" style="border-bottom: 1px solid #d9d9d9;" >
+            <div class="t260__wrapper" >
+              <div class="t260__header" style="border-top: 1px solid #d9d9d9;" >
+                <div class="t260__title t-name t-name_xl" field="title" >Про #{showQueryGen ma mo g}
+                <div class="t260__icon" >
+                  <div class="t260__lines" >
+                    <div class="t260__iconline t260__iconline_left" style="background: #000000" >
+                    <div class="t260__iconline t260__iconline_right" style="background: #000000" >
+                  <div class="t260__circle" style="background: #dedede" >
+              <div class="t260__content" >
+                <div class="t260__textwrapper" >
+                  <div class="t260__text t-descr t-descr_xs" field="descr" >
+                     <strong>
+                       Ваш выбор - #{showQueryGen ma mo g}. 
+                       <br>
+                     $forall Entity _ advC' <- advC
+                       Это - 
+                       <strong>#{adviceTitle advC'}
+                      <br>
+                      Что это значит?
+                      <br>
+                      <br>
+                      <div field="text" class="text ">
+                        #{adviceContent advC'}
+                      $if isEastRegion r
+                        <br>
+                        PS: Данные Автоскептика по популярности моделей на Дальнем Востоке и в Сибири могут оказаться не вполне релевантными, так как пока сервис "заточен" под европейскую часть. Мы работаем над новым функционалом и скоро сможем предоставлять данные и по восточным регионам тоже. ВАЖНО! Рекомендации по возрасту и ценам актуальны для любых регионов, проблема касается только распространенности.
+                      $else
+                        <br>
+
+  <div id="rec9386967" class="r" style=" " data-record-type="280" >
+    <!-- T260-->
+    <div class="t260" data-block-init="yes" >
+      <div class="t-container" >
+        <div class="t-col t-col_8 t-prefix_2" >
+          <div class="t260__accordion" style="border-bottom: 1px solid #d9d9d9;" >
+            <div class="t260__wrapper" >
+              <div class="t260__header" style="border-top: 1px solid #d9d9d9;" >
+                <div class="t260__title t-name t-name_xl" field="title" >Про возраст
+                <div class="t260__icon" >
+                  <div class="t260__lines" >
+                    <div class="t260__iconline t260__iconline_left" style="background: #000000" >
+                    <div class="t260__iconline t260__iconline_right" style="background: #000000" >
+                  <div class="t260__circle" style="background: #dedede" >
+              <div class="t260__content" >
+                <div class="t260__textwrapper" >
+                  <div class="t260__text t-descr t-descr_xs" field="descr" >
+                    <strong>Вы хотите купить машину #{T.pack $ show $ ageAge $ entityVal a} года.
+                    $forall Entity _ advA' <- advA
+                      <br>
+                      <strong>#{adviceTitle advA'}
+                      <br>
+                      <br>
+                      #{adviceContent advA'}
+                      <br>
+
+
+  <div id="rec9386969" class="r" style=" " data-record-type="280" >
+    <!-- T260-->
+    <div class="t260" data-block-init="yes" >
+      <div class="t-container" >
+        <div class="t-col t-col_8 t-prefix_2" >
+          <div class="t260__accordion" style="border-bottom: 1px solid #d9d9d9;" >
+            <div class="t260__wrapper" >
+              <div class="t260__header" style="border-top: 1px solid #d9d9d9;" >
+                <div class="t260__title t-name t-name_xl" field="title" >Про ваш бюджет на покупку
+                <div class="t260__icon" >
+                 <div class="t260__lines" >
+                  <div class="t260__iconline t260__iconline_left" style="background: #000000" >
+                  <div class="t260__iconline t260__iconline_right" style="background: #000000" >
+                 <div class="t260__circle" style="background: #dedede" >
+              <div class="t260__content" >
+                <div class="t260__textwrapper" >
+                  <div class="t260__text t-descr t-descr_xs" field="descr">
+                    $if mres == True
+                      <div>Упс, мы не можем дать вам рекомендацию по тому, насколько выбранная модель соответствует вашему бюджету. Почему?
+                      <br>
+                      <div>Средняя цена на #{showQueryAge ma mo a} неизвестна, так как в данный момент в указанном городе этой модели этого года в продаже НЕТ.
+                      <br> 
+                      <div>Попробуйте выбрать:
+                      
+                        <ul>
+                          <li>
+                            <a href="#get-advice">другой город
+                          <li>
+                            <a href="#get-advice">другую модель
+                          <li>
+                            <a href="#get-advice">другой год
+                      <br>
+                      <div style="font-size:22px;"> Удачи! 
+                    $else
+                      <div>
+                        Средняя цена на
+                        <span style="text-decoration: underline;">#{showQueryAge ma mo a}
+                        \ - #{T.pack $ show amprice} рублей.
+                      <br>
+                      <div>
+                        Вы хотите купить машину за #{show $ arBudget autoRequest} рублей. И это:
+                        <br>
+                        <br>
+                      $forall Entity _ advP' <- advP
+                        <div field="title">
+                          <strong>
+                            <b>#{adviceTitle advP'}
+                          <br>
+                          <br>
+                        <div>
+                          #{adviceContent advP'}
+                          <br>
+
+  <div .r style="padding-top:15px;padding-bottom:0px;" >
+    <div .t-container>
+      <div .t-col .t-col_10 .t-prefix_1 >
+        <div .t050__descr .t-descr .t-descr_xxl>Ваш риск купить авто в плохом состоянии - 
+          <strong>#{show risc}% 
+          <span .tt2>Как мы это посчитали?
+            <span .tooltiptext style="font-size: 14px;padding: 15px;">
+              Все зависит от возраста и распространенности автомобиля, а также от вашего бюджета. Соответственно, Alfa Romeo 164 1995 года по цене на 30% ниже средней - это почти максимальный риск. А Renault Logan 2015 года по цене на 30% выше средней - минимальный.
+              <br>
+              <br>
+              Но риск сохраняется всегда! На рынке много машин со скрученным пробегом, после ДТП и с замаскированными дефектами. Не дремлют и мошенники. 
+          <br>
+          <br>
+          <strong>Что теперь делать? Спокойно! Вариантов много:
+          <br>
+          <br>
+          <ul>
+            <li>
+              Скачать 
+              <a href=@{GuideR}>
+                <u>150-страничный Гид Автоскептика
+              \ и узнать все секреты выбора бэушной машины.
+            <li>
+              <a href="#personal">
+                <u>Обратиться к Автоскептику
+              \ с просьбой о помощи!
+
+  <div #autocomplete .r style=" " data-record-type="280" .hide mark=#{markName $ entityVal ma} model=#{modelName $ entityVal mo} generation=#{fst $ generationToFront g} year=#{ageAge $ entityVal a} mark-id=#{show $ fromSqlKey $ entityKey ma} model-id=#{show $ fromSqlKey $ entityKey mo} year-id=#{show $ fromSqlKey $ entityKey a} generation-id=#{show $ fromSqlKey $ entityKey g}>
+
+  ^{retryCarSearchForm regions marks}
+  ^{wantMoreWeakPlaces marks}
+  ^{simpleAdvice sAdvice'}
+  ^{guideButton}
+  ^{needHelp}
+  ^{footer}

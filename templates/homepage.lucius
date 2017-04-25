@@ -1,0 +1,32 @@
+.img-pos {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.fit {
+  height: 250px;
+  overflow-y: auto;
+}
+
+.adv {
+  padding: 15px;
+  border: 2px grey solid;
+  border-radius: 20px;
+  text-align: justify;
+}
+
+#rec9267769 input::-webkit-input-placeholder {
+  color:#000000;
+  opacity: 0.5;
+}
+#rec9267769 input::-moz-placeholder {
+  color:#000000; opacity: 0.5;
+}
+#rec9267769 input:-moz-placeholder {
+  color:#000000; opacity: 0.5;
+}
+#rec9267769 input:-ms-input-placeholder {
+  color:#000000; opacity: 0.5;
+}

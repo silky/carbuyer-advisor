@@ -1,0 +1,49 @@
+<div #allrecords>
+
+  ^{header withoutMenu}
+
+  <div .r style="padding-top:15px;padding-bottom:0px;" >
+    <div .t-container>
+      <div .t-col .t-col_10 .t-prefix_1 >
+        <div .t050__descr .t-descr .t-descr_xxl>Не нашли информации по модели, которая вас интересует? Оставьте заявку, мы составим для вас справку! Данные по надежности нужны срочно? Тогда 
+          <a href=@{TaxR}>оформите подписку на Автоскептика
+          \ и получите справку в течение 24 часов.
+
+  <div #rec9267769 .r style="padding-top: 90px; padding-bottom: 30px; opacity: 1;" data-record-type="214">
+    <!-- T186B -->
+    <div .t186B >
+      <div .row .hide #tech-generation-help >
+        <div .hide .lr_col_10 .prefix_1>
+          <div .wrapper style="background-color:#CCCCCC;">
+      <div .t-container >
+        <div .t-col .t-col_6 .t-prefix_3 >
+          <div .t186C__wrapper >
+            <div #tech-container >
+              <input #tech .t186C__input .t-input .input-large .form-control .blocks-input style="color:#000000; border:1px solid #000000;" readonly value=#{showQueryGen ma mo g}>
+              <input type=hidden #generation value=#{show $ fromSqlKey $ entityKey g}>
+
+            <div .t186C__blockinput #email-container>
+              <input name="email" .t186C__input #email .t-input placeholder="E-mail для обратной связи" data-req="1" data-rule="email" style="color:#000000; border:1px solid #000000; border-radius: 0px; -moz-border-radius: 0px; -webkit-border-radius: 0px;" type="text">
+
+            <div #tech-btn-wrapper .t186C__blockbutton style="padding-top:1.5%; width: 100%" >
+              <input type=hidden name=tech-q #tech-q>
+              <button #tech-form-submit type="submit" .t186C__submit .t-submit style="color:#000000; background-color:#b3ff80; ">ЗАПРОСИТЬ НОВУЮ ТЕХСПРАВКУ
+    <style>
+      \ #rec9267769 input::-webkit-input-placeholder {color:#000000; opacity: 0.5;}
+      \ #rec9267769 input::-moz-placeholder {color:#000000; opacity: 0.5;}
+      \ #rec9267769 input:-moz-placeholder {color:#000000; opacity: 0.5;}
+      \ #rec9267769 input:-ms-input-placeholder {color:#000000; opacity: 0.5;}
+
+  <div .r style="padding-top:15px;padding-bottom:15px;" .hide #continue >
+    <div .t-container>
+      <form action=@{HomeR} method=GET>
+        <div .t-col .t-col_8 .t-prefix_2 >
+          <div .t050__descr .t-descr .t-descr_xxl>Ваша заявка отправлена! Когда справка будет готова, вы получите уведомление на почту.
+          <div .t186C__wrapper>
+            <div .t186C__blockbutton >
+              <button type=submit .t186C__submit .t-submit style="color:#000000; border:0 px solid #ffffff; background-color:#b3ff80; border-radius: 0px; -moz-border-radius: 0px; -webkit-border-radius: 0px;">
+                ВСЕ ПОНЯТНО! ПРОДОЛЖИТЬ
+
+  <div #autocomplete .r style=" " data-record-type="280" .hide mark=#{markName $ entityVal ma} model=#{modelName $ entityVal mo} generation=#{fst $ generationToFront g} year=#{ageAge $ entityVal a} mark-id=#{show $ fromSqlKey $ entityKey ma} model-id=#{show $ fromSqlKey $ entityKey mo} year-id=#{show $ fromSqlKey $ entityKey a} generation-id=#{show $ fromSqlKey $ entityKey g}>
+
+  ^{footer}

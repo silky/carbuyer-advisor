@@ -1,0 +1,12 @@
+$(document).ready(function(){
+  t260_init();
+});
+
+function t260_collapse() {
+    var i = $(this).find('.t260__content');
+    var j = $(this).find('.t260__iconline_left');
+    if (i.css('display') === 'none') { i.css('display','block'); j.css('display','none') } 
+    else { i.css('display','none'); j.css('display','block'); }
+};
+
+$('.t260__accordion').click(t260_collapse);

@@ -1,0 +1,40 @@
+<div #allrecords .t-records data-hook="blocks-collection-content-node" >
+  ^{header withMenu}
+
+  ^{weakPlacesForm marks}
+
+  <div #rec9276203 .r style="padding-top: 30px; padding-bottom: 30px; opacity: 1;" data-record-type="351">
+    $if null eitModels
+      <!-- T351 -->
+    $else
+      <div .t351 >
+        <div style="width: 0px; height: 0px; overflow: hidden;">
+          <div .t351__sizer .t351__sizer_col .t-col_4 data-auto-correct-mobile-width="false" style="height:400px;">
+        $forall eitModels' <- dEitModels
+          <div .t-container>
+            $forall (Entity moid mo, Entity _ img, Entity taid ta) <- eitModels'
+              <div .t351__col .t-col .t-col_4 .t351__imgmiddle .t-align_left >
+                <a href=@{TechWithIdR taid} target="">
+                  <div .t351__content>
+                    <div .t351__imgwrapper style="height:400px;">
+                      <div .t351__bg .t351__bg_first bgimgfield="img" style="background-image:url(#{repairStatic0 $ imageUrl img});">
+                      <div .t351__bg .t351__bg_second bgimgfield="img5" style="">
+                    <div .t351__textwrapper>
+                      <div .t351__title .t-name .t-name_md field="title" style="">#{textAdviseName ta}
+                      <div .t351__descr .t-descr .t-descr_xxs field="descr" style="">
+                        $maybe tap <- textAdvisePromo ta
+                          <span>#{tap}
+                        $nothing
+                          <span>
+                    <div .t351__buttons >
+                      <a href=@{TechWithIdR taid} target="" .t351__btn .t351__btn .t-btn style="color:#ffffff; background-color:#000000; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;">
+                        <table style="width:100%; height:100%; color:#ffffff; background-color:#000000;">
+                          <tbody>
+                            <tr>
+                              <td>Узнать больше
+
+  ^{initCarSearchForm regions marks}
+  ^{simpleAdvice sAdvice'}
+  ^{guideButton}
+  ^{needHelp}
+  ^{footer}

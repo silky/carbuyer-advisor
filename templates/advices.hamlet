@@ -1,0 +1,52 @@
+<h1> Рекомендации
+$if null advices
+    <p> Пусто пока...
+$else
+  <div .list .row-md-12>
+    <div .col-md-3>
+      ^{renderAdvicesByLevelName a1 "возраст"}
+    <div .col-md-3>
+      ^{renderAdvicesByLevelName a2 "популярность"}
+    <div .col-md-3>
+      ^{renderAdvicesByLevelName a3 "цена"}
+    <div .col-md-3>
+      ^{renderAdvicesByLevelName a4 "регион"}
+
+<hr>
+<div .row-md-12>
+  <div .col-md-6>
+    <form method=post enctype=#{enctype} .full>
+      ^{adviceWidget}
+      <div>
+          <button .btn type=submit>Сохранить
+
+  <div .col-md-6>
+    <div .row-md-12>
+      <div .col-md-12>
+        <a href=@{TypesR}>Перейти к рамкам
+    <div .row-md-12>
+      <div .col-md-12>
+        <a href=@{RegionR}>Перейти к регионам
+    <div .row-md-12>
+      <div .col-md-12>
+        <a href=@{AppStatsR}>Статистика
+    <div .row-md-12>
+      <div .col-md-12>
+        <a href=@{MonitoringR}>Мониторинг
+    <div .row-md-12>
+      <div .col-md-12>
+        <a href=@{ImportR}>Авторские технические характеристики
+    <div .row-md-12>
+      <div .col-md-12>
+        <a href=@{SimpleAdvicesR}>Просто хорошие советы
+    <div .row-md-12>
+      <div .col-md-12>
+        <a href=@{EditoR}>Редактор атрибутов
+    <div .row-md-12>
+      <div .col-md-12>
+        <a href=@{ServiceR}>Услуги и гипотезы
+
+<div .row-md-12>
+  <div .col-md-12>
+    <div style="display:none;">T
+    <hr>

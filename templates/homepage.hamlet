@@ -1,0 +1,154 @@
+<div #allrecords .t-records data-hook="blocks-collection-content-node" >
+  ^{header withMenu}
+  <div #rec9267851 .r data-animationappear="off" data-record-type="281">
+    <!-- cover -->
+    <!-- T259-->
+    <div .t-cover #recorddiv9267851 bgimgfield="img" style="height:40vh; background-image:-webkit-linear-gradient(top, #ccc, #777); background-image:-moz-linear-gradient(top, #ccc, #777); background-image:-o-linear-gradient(top, #ccc, #777); background-image:-ms-linear-gradient(top, #ccc, #777); background-image:linear-gradient(top, #ccc, #777);" >
+      <div .t-cover__carrier #coverCarry9267851 data-content-cover-id=9267851 data-content-cover-bg="static/img/1593.jpg" data-content-cover-height="40vh" data-content-cover-parallax="" style="background-image:url('static/img/1593.jpg');height:40vh;background-attachment:scroll; ">
+      <div .t-cover__filter style="height:40vh;background-color:#000;filter:alpha(opacity:40);KHTMLOpacity:0.4;MozOpacity:0.4;opacity:0.4;" >
+      <div .t259 >
+        <div .t259__container .t-container >
+           <div style="width:100%; margin: 0 auto;">
+            <div #myCarousel9267851 .carousel .slide data-ride="carousel" style="height:40vh;" data-interval="false">
+              <!-- Indicators -->
+              <ol .carousel-indicators >
+                <li data-target="#myCarousel9267851" data-slide-to="0" .white .active >
+                <li data-target="#myCarousel9267851" data-slide-to="1" .white>
+                <li data-target="#myCarousel9267851" data-slide-to="2" .white>
+                <li data-target="#myCarousel9267851" data-slide-to="3" .white>
+              <div .carousel-inner >
+                <div .item .active >
+                  <div .t-width .t-width_8 .t259__mainblock >
+                    <div .t-cover__wrapper .t-valign_middle style="height:40vh;">
+                      <div .t259__wrapper >
+                        <div field="text1" .t259__text .t-text .t-text_lg >
+                          <div style="font-size:22px;line-height:20px;text-align:center;" data-customstyle="yes">
+                            <span>
+                            <strong>
+                              <br>
+                              Что брать, чего не брать, на что обратить внимание?
+                              <br>
+                              <span style="font-size: 24px;">
+                              <br>
+                              Подробная информация по 300+ автомобилям
+                <div .item >
+                  <div .t-width .t-width_8 .t259__mainblock >
+                    <div .t-cover__wrapper .t-valign_middle style="height:40vh;" >
+                      <div .t259__wrapper >
+                        <div field="text2" .t259__text .t-text .t-text_lg >
+                          <div style="font-size:22px;line-height:20px;text-align:center;" data-customstyle="yes">
+                            <b>
+                              <span style="font-size: 22px;">
+                                <span style="font-weight: 700;">
+                                  <br>
+                                  Не определились с бюджетом на покупку машины?
+                                  <br>
+                              <span style="font-size: 24px;">
+                                  <br>
+                                  У нас есть средние цены по рынку
+                              <span style="font-size: 24px;">
+                <div .item >
+                  <div .t-width .t-width_8 .t259__mainblock >
+                    <div .t-cover__wrapper .t-valign_middle style="height:40vh;" >
+                      <div .t259__wrapper >
+                        <div field="text3" .t259__text .t-text .t-text_lg >
+                          <div style="font-size:22px;line-height:20px;text-align:center;" data-customstyle="yes">
+                            <strong>
+                              <span style="font-weight: 700;">
+                                <span style="font-size: 24px;">
+                              <span style="font-weight: 700;">
+                                <br>
+                                Опасно ли покупать машину старше 10 лет?
+                                <br>
+                              <span style="font-size: 24px;">
+                                <br>
+                                Расскажем обо всех рисках и проблемах
+                              <span style="font-size: 24px;">
+                        <div style="line-height:20px;text-align:center;" data-customstyle="yes">
+                        <div field="title3" .t259__user__title .t-descr .t-descr_xxs >
+                          <div style="line-height:20px;text-align:center;" data-customstyle="yes">
+                            <br>
+                <div .item >
+                  <div .t-width .t-width_8 .t259__mainblock >
+                    <div .t-cover__wrapper .t-valign_middle style="height:40vh;">
+                      <div .t259__wrapper >
+                        <div field="text4" .t259__text .t-text .t-text_lg >
+                          <div style="font-size:22px;line-height:20px;text-align:center;" data-customstyle="yes">
+                            <strong>
+                              <span style="font-weight: 700;">
+                                <span>
+                              <span style="font-weight: 700;">
+                                <br>
+                                Остались вопросы?
+                                <br>
+                              <span style="font-size: 24px;">
+                                <br>
+                                Задавайте, разберемся
+                              <span style="font-size: 24px;">
+              <a .left .carousel-control href="#myCarousel9267851" data-slide="prev">
+                <span .carousel-control-left-white style="top:42%;">
+              <a .right .carousel-control href="#myCarousel9267851" data-slide="next">
+                <span .carousel-control-right-white style="top:42%;">
+
+  ^{weakPlacesForm marks}
+
+  <div #rec9276203 .r style="padding-top: 10px; padding-bottom: 10px; opacity: 1;" data-record-type="351">
+    $if null tas
+      <!-- T351 -->
+    $else
+      <div .t351 >
+        <div style="width: 0px; height: 0px; overflow: hidden;">
+          <div .t351__sizer .t351__sizer_col .t-col_4 data-auto-correct-mobile-width="false" style="height:400px;">
+        <div .t-container>
+          $forall (Entity taid ta, Entity _ img) <- tas
+            <div .t351__col .t-col .t-col_4 .t351__imgmiddle .t-align_left >
+              <a href=@{TechWithIdR taid} target="">
+                <div .t351__content>
+                  <div .t351__imgwrapper style="height:400px;">
+                    <div .t351__bg .t351__bg_first bgimgfield="img" style="background-image:url(#{repairStatic0 $ imageUrl img});">
+                    <div .t351__bg .t351__bg_second bgimgfield="img5" style="">
+                  <div .t351__textwrapper>
+                    <div .t351__title .t-name .t-name_md field="title" style="">#{textAdviseName ta}
+                    <div .t351__descr .t-descr .t-descr_xxs field="descr" style="">
+                      $maybe tap <- textAdvisePromo ta
+                        <span>#{tap}
+                      $nothing
+                        <span>
+                  <div .t351__buttons >
+                    <a href=@{TechWithIdR taid} target="" .t351__btn .t351__btn .t-btn style="color:#ffffff; background-color:#000000; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;">
+                      <table style="width:100%; height:100%; color:#ffffff; background-color:#000000;">
+                        <tbody>
+                          <tr>
+                            <td>Узнать больше
+
+  <div #rec9276204 .r style="padding-top: 10px; padding-bottom: 10px; opacity: 1;" data-record-type="351">
+    $if null eitMarks
+      <!-- T351 -->
+    $else
+      $if eitLen < 6
+        <div .t351 >
+          <div style="width: 0px; height: 0px; overflow: hidden;">
+            <div .t351__sizer .t351__sizer_col .t-col_4 data-auto-correct-mobile-width="false" style="height:400px;">
+          <div .t-container>
+            $forall (Entity maid ma, _, _) <- eitMarks
+              <div .t351__col .t-col .t-col_2 .t-align_left >
+                <a href=@{ModelsR maid} target="" style="color:rgb(0,0,0)">
+                  <strong>#{markName ma}
+      $else
+        <div .t351 >
+          <div style="width: 0px; height: 0px; overflow: hidden;">
+            <div .t351__sizer .t351__sizer_col .t-col_4 data-auto-correct-mobile-width="false" style="height:400px;">
+          <div .t-container>
+            $forall eit <- eits
+              <div .t351__col .t-col .t-col_2 .t-align_left >
+                $forall (Entity maid ma, _, _) <- eit
+                  <a href=@{ModelsR maid} target="" style="color:rgb(0,0,0)">
+                    <strong>#{markName ma}
+                  <br>
+                  <br>
+
+  ^{initCarSearchForm regions marks}
+  ^{simpleAdvice sAdvice'}
+  ^{guideButton}
+  ^{needHelp}
+  ^{footer}

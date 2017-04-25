@@ -1,0 +1,8 @@
+<div #allrecords>
+
+  ^{header withoutMenu}
+
+  <h2>#{emsg}
+  ^{retryCarSearchForm regions marks}
+
+  ^{footer}

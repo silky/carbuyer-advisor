@@ -1,0 +1,90 @@
+<a href=@{ImportR}>
+  Вернуться к списку
+
+<h1> Редактирование
+<div .hide #textadvise value=#{fromSqlKey textAdviseId}>
+  #{fromSqlKey textAdviseId}
+
+<div .row>
+  <div .col-md-8>
+    <form method=post enctype=#{enctype}>
+      ^{textAdviseWidget}
+      <button .btn type=submit>
+        Обновить
+    <button #del .btn>
+      Удалить
+
+  <br>
+  <hr>
+  
+  <div .col-md-6>
+    <h1>Дополнительные поколения
+    <div .row>
+      <div .col>
+        $if null addedGs
+          <h3>Здесь ещё нет дополнительной связки с поколениями. Начать можно, заполнив Generation Id на соседней форме.
+        $else
+          <table>
+            <tbody #lkaddtable>
+              <tr .row>
+                <th .col-md-1>Удалить
+                <th .col-md-5>Поколение
+                <th .col-md-3>Начало
+                <th .col-md-3>Окончание
+              $forall Entity gkey ga <- addedGs  
+                <tr .row>
+                  <td .col-md-1>
+                    <button .btn .lkdel data=#{fromSqlKey gkey}>Удалить
+                  $maybe jg <- generationGeneration ga
+                    <td .col-md-5>#{jg}
+                  $nothing
+                    <td .col-md-5>I
+                  <td .col-md-3>#{fromMaybeInt $ generationBottomAge ga}
+                  <td .col-md-3>#{fromMaybeInt $ generationTopAge ga}
+      <div .row>
+        <div .col>
+          <button .btn #lkadd>Добавить
+          <select #genupd>
+            $forall g' <- gens
+              <option value=#{fromSqlKey $ snd g'}>#{fst g'}
+
+<br>
+<hr>
+
+<h1>Изображения
+<div .row-md-12>
+  <div .col-md-12>
+      $if null addedImgs
+        <h3>Здесь ещё нет изображений. Можно их закачать из формы ниже.
+        <table>
+          <tbody #imgaddtable>
+      $else
+        <table>
+          <tbody #imgaddtable>
+            <tr .row>
+              <th .col-md-1>Удалить
+              <th .col-md-11>Изображение
+            $forall Entity ikey img <- addedImgs  
+              <tr .row>
+                <td .col-md-1>
+                  <button .btn .imgdel data=#{fromSqlKey ikey}>Удалить
+                <td .col-md-11>
+                  <img .thumb src=#{repairStatic2 $ imageUrl $ img}>
+
+<br>
+<hr>
+
+<div .row-md-12>
+  <div .col-md-12>
+    <input #files type=file name="files[]" multiple>
+    <output #list>
+    <button .btn #imgadd>Загрузить на сервер
+
+<br>
+<hr>
+
+<div .row-md-12>
+  <div .col-md-12>
+    <hr>
+    <a href=@{ImportR}>
+      Вернуться к списку

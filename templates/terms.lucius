@@ -1,0 +1,4 @@
+.t-p {
+  padding-top: 7.5px;
+  padding-bottom: 7.5px;
+}

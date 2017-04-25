@@ -1,0 +1,7 @@
+<div #allrecords>
+
+  ^{header withoutMenu}
+
+  <h2>#{emsg}
+  ^{weakPlacesForm marks}
+  ^{footer}

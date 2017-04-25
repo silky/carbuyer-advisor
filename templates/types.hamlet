@@ -1,0 +1,31 @@
+<h1> Пограничные условия
+$if null allents
+    <p> Пусто пока...
+$else
+  <div .list>
+    $forall gtypes' <- ggtypes
+      <div .row-md-12>
+        <div .col-md-12>
+          <div .row-md-12>
+            <div .col-md-4>
+              <f3>
+                #{lvlFromTriple $ L.head gtypes'}
+              <ul>
+                $forall (_, t, tid) <- gtypes'
+                  <li>
+                    <a href=@{TypeR tid} >#{t}
+
+<div .row-md-12>
+  <hr>
+
+  <form method=post enctype=#{enctype} .full>
+    ^{typeWidget}
+    <div>
+      <button .btn type=submit>
+        Сохранить
+
+<div .row-md-12>
+  <hr>
+
+  <a href=@{AdminR}>
+    Назад

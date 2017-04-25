@@ -1,0 +1,7 @@
+var deletethis = function () {
+  $.ajax({
+    url: '@{AdviceR adviceId}',
+    type: "DELETE",
+    success: function() {window.location.replace("@{AdminR}");}
+  });
+}; 
